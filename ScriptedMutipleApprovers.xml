@@ -66,7 +66,7 @@
 				returnValue = "approve";
 				for (AssetCategory assetCategory : assetCategories) {
 					String categoryName = assetCategory.getName();
-					if (categoryName.equals("Entire University")) {
+					if (categoryName.equals("Category X")) {
 						returnValue = "escalation";
 						return;
 					}
